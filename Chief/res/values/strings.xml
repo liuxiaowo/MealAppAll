@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chief</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">晨餐私厨商家版</string>
+    <string name="chief_user_tv">用户名：</string>
+    <string name="chief_user_edit">请输入用户名</string>
+    <string name="chief_pw_tv">密码：</string>
+    <string name="chief_pw_edit">请输入密码</string>
+    <string name="chief_code_img"></string>
+    <string name="chief_code_tv">验证码：</string>
+    <string name="chief_code_edit"></string>
+    <string name="chief_login">登录</string>
+    <string name="chief_register">注册</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="back"></string>
+    <string name="register_tv">注册</string>
+    <string name="register_role_tv">角色：</string>
+    <string name="register_user_tv">用户名：</string>
+    <string name="register_user_edit">手机号/邮箱</string>
+    <string name="register_pw_tv">密码：</string>
+    <string name="register_pw_edit">请输入密码</string>
+    <string name="register_pwAgain_tv">密码Again：</string>
+    <string name="register_pwAgain_edit">再次输入密码</string>
+    <string name="register_button">注册</string>
+    <string name="title_activity_order">OrderActivity</string>
+	<string name="ckbSavePwd">记住密码</string>
+	<string name="tishi">    首次使用需要配置服务端IP地址+端口号,如果当前是采用模拟器测试,IP地址保持默认(10.0.2.2:8080)即可</string>
+	<string name="etIP">10.0.2.2:8080</string>
+	<string name="ok">确定</string>
+</resources>

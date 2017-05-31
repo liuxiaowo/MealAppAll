@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlTopTitle"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="#ffffff" >
+
+    <!-- 左边按钮 -->
+
+    <Button
+        android:id="@+id/btnTopTitleLeft"
+        android:layout_width="80dp"
+        android:layout_height="36dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:layout_marginLeft="5dip"
+        android:background="@drawable/btn_bg"
+        android:text="@string/back"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:visibility="gone" />
+    <!-- 左边文本 -->
+
+    <TextView
+        android:id="@+id/tvTopTitleLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+    <!-- 中间文本 -->
+
+    <TextView
+        android:id="@+id/tvTopTitleCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#ff5a60"
+        android:textSize="20sp" />
+    <!-- 中间Logo -->
+
+    <ImageView
+        android:id="@+id/ivTopTitleCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null"
+        android:visibility="gone" />
+    <!-- 右边按钮 -->
+
+    <Button
+        android:id="@+id/btnTopTitleRight"
+        android:layout_width="80dp"
+        android:layout_height="36dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dip"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:textColor="#ffffff"
+        android:background="@drawable/btn_bg"
+        android:textSize="16sp"
+        android:visibility="gone" />
+    <!-- 右边文本 -->
+
+    <TextView
+        android:id="@+id/tvTopTitleRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dip"
+        android:textColor="#ff5a60"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

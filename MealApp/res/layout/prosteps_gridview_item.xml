@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical" 
+    android:id="@+id/gv_item_linear">
+    <LinearLayout 
+        android:id="@+id/gv_item_step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/gv_item_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gv_item_num"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+    </LinearLayout>
+	<ImageView
+	    android:id="@+id/gv_item_img"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:scaleType="fitXY"
+	    android:background="@drawable/add_pic"
+	    android:contentDescription="@string/gv_item_img"/>
+	<TextView
+	    android:id="@+id/gv_item_tv"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/gv_item_tv"
+	    android:textColor="#000000"
+	    android:textSize="20sp"/>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="com.bean.breakfast" table="breakfast">
+  <id name="id">
+   <generator class="identity"/>
+  </id>
+  <property generated="never" lazy="false" name="title"/>
+  <property generated="never" lazy="false" name="intro"/>
+  <property generated="never" lazy="false" name="price"/>
+  <property generated="never" lazy="false" name="amount"/>
+  <property generated="never" lazy="false" name="img_url"/>
+  <property generated="never" lazy="false" name="typeid"/>
+  <property generated="never" lazy="false" name="typename"/>
+ </class>
+</hibernate-mapping>

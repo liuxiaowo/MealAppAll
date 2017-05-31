@@ -1,0 +1,578 @@
+/*公共样式*/
+*
+{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-size: 12px;
+}
+body
+{
+	background: #FFF;
+	margin:0;
+	padding:0;
+	 
+	
+}
+.body
+{
+	background: #FFF;
+	margin:0;
+	padding:0;
+	width:960px; margin:0 auto; 
+	
+}
+.backbody{
+	background: #FFF;
+	margin:0;
+	padding:0;
+	width:960px; margin:0 auto; 
+	background: url(../images/body_bg.jpg);
+	height: 700px;
+}
+ul li
+{
+	list-style: none;
+}
+a
+{
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+.clear
+{
+    clear:both;
+}
+.red
+{
+	color:red;
+	}
+/*==============【分页】样式===============*/
+.paginator
+{
+	font: 12px Arial, Helvetica, sans-serif;
+	padding: 10px 20px 10px 0;
+	margin: 0px;
+}
+.paginator a
+{
+	border: solid 1px #ccc;
+	color: #0063dc;
+	cursor: pointer;
+	text-decoration: none;
+}
+.paginator a:visited
+{
+	padding: 1px 6px;
+	border: solid 1px #ddd;
+	background: #fff;
+	text-decoration: none;
+}
+.paginator .cpb
+{
+	border: 1px solid #F50;
+	font-weight: 700;
+	color: #F50;
+	background-color: #ffeee5;
+}
+.paginator a:hover
+{
+	border: solid 1px #F50;
+	color: #f60;
+	text-decoration: none;
+	background: #A5151C;
+}
+.paginator a, .paginator a:visited, .paginator .cpb, .paginator a:hover
+{
+	float: left;
+	height: 16px;
+	line-height: 16px;
+	min-width: 10px;
+	_width: 10px;
+	margin-right: 5px;
+	text-align: center;
+	white-space: nowrap;
+	font-size: 12px;
+	font-family: Arial,SimSun;
+	padding: 0 3px;
+}
+.list-top
+{
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+}
+.list-bottom
+{
+    height: 60px;
+    margin-bottom:10px;
+}
+
+
+/*==============【文本框】样式===============*/
+/*文本框统一样式*/
+.textbox
+{
+    background:#FFF !important;
+    border:1px solid #CCC !important;
+    height:24px !important;
+    line-height:24px !important;
+    font-size:12px !important;
+    width:140px;
+    padding-left:3px;
+}
+
+/*文本框样式1*/
+.txtClass1
+{
+	width: 216px;
+	height: 20px;
+	background: transparent url("../images/textboxcc.jpg") no-repeat;
+	border: none;
+	color: #747862;
+	padding: 4px 8px;
+	margin-bottom: 0px;
+	line-height:20px;
+}
+/*文本框样式2*/
+.txtClass2
+{
+	width: 146px;
+	height: 17px;
+	background: transparent url("../images/ubox-text.gif") no-repeat 0 ;
+	border: none;
+	padding: 3px 7px;
+	text-align:left;
+
+}
+.txtClass2:hover
+{
+
+	background: transparent url("../images/ubox-text.gif") no-repeat 0 -23px;
+	
+}
+/*文本框样式max 自定义宽度*/
+.txtClassMax
+{
+	
+	border:1px solid #CCC;
+	text-align:left;
+	padding: 3px 7px;
+	height:20px;
+	line-height:20px;
+	background:#FFF;
+}
+
+/*Select样式*/
+.selectClass
+{
+	height: 24px;
+	width: 120px;
+	color: #666;
+	font-size: 14px;
+	background:#FFF;
+}
+.TextAreaClass
+{
+	border: 1px #CCC solid;
+	background: #FFF;
+	padding: 5px;
+	font-size: 14px;
+	color: #666;
+	text-align: left;
+}
+
+/*==============【网格按钮】样式===============*/
+/*网格按钮样式*/
+.btnGrid
+{
+	text-align:center;
+	border:#CCC solid 1px;
+	cursor:pointer;
+	width:40px;
+	height:20px;
+}
+.btnGrid:hover
+{
+	border:1px solid #999;
+}
+/*网格按钮样式2*/
+.btnGrid2
+{
+	text-align:center;
+	border:0;
+	background:url("../images/backGridBtnbg.gif");
+	cursor:pointer;
+	width:53px;
+	height:22px;
+}
+.btnGrid2:hover
+{
+    background-position:0 -22px;
+}
+
+
+.btnGrid-Bisque-A
+{
+    border: 1px solid #f9ddaf;
+    height: 22px;
+    width: 44px;
+    text-align: center;
+    cursor: pointer;
+}
+.btnGrid-Bisque-A:hover
+{
+    border-color: #F5C87F;
+}
+.textbox-noColor-A
+{
+    border: 1px solid #CCC;
+    height: 22px;
+    line-height: 22px;
+    width: 160px;
+}
+
+/*==============【列表表格】样式===============*/
+.GridTable th
+{
+	background: url("../images/th_bg.jpg");
+	border: #CCC solid 1px;
+	border-right: none;
+	background-color: #FFF7F0;
+	text-align: center;
+	height: 24px;
+	line-height: 24px;
+	padding:0 3px;
+}
+.GridTable td
+{
+	border-left: #CCC solid 1px;
+	border-bottom: #CCC solid 1px;
+	text-align: center;
+	padding: 5px;
+}
+.GridTable .right
+{
+	border-right: #CCC solid 1px;
+}
+.GridTable td a
+{
+	text-decoration: none;
+}
+.GridTable td a:hover
+{
+	color: #F63;
+}
+/*==============【表单表格】样式===============*/
+/*表单Table统一样式*/
+.FormTable
+{
+    margin:20px auto; 
+  
+
+}
+.FormTable  td
+{
+     
+
+    border:0;
+    padding:5px;
+    text-align:left;
+    font-size:14px;
+
+}
+.FormTable  td.td-left
+{
+    text-align:right;
+}
+.FormTable  td.td-right
+{
+    text-align:left;
+    text-indent:1em;
+}
+/*表格列表Table统一样式*/
+.GridTable .btnGrid
+{
+    border:0px;
+    width:16px;
+    height:16px;
+    cursor:pointer;
+}
+.GridTable .btnGridccc
+{
+ 
+   
+    padding:2px 5px;
+    cursor:pointer;
+    border:1px solid #ccc;
+    
+}
+.GridTable .btnGridccc:hover
+{
+	border-color:#4DD2FF
+}
+
+.GridTable th
+{
+    background:url("../images/th_bg.jpg");
+    border: #CCC solid 1px;
+    border-right: none;
+    background-color: #FFF7F0;
+  text-align:center;
+    height:24px;
+    line-height:24px;
+}
+.GridTable td
+{
+    border-left: #CCC solid 1px;
+    border-bottom:#CCC solid 1px;
+    text-align:center;
+    padding:5px;
+}
+.GridTable .right
+{
+    border-right: #CCC solid 1px;
+}
+.GridTable td a
+{
+	text-decoration:none;
+}
+.GridTable td a:hover
+{
+	color:#F63;
+}
+/*==============【搜索栏表格】样式===============*/
+/*搜索栏表格统一样式*/
+.SearchTable td
+{
+    padding:3px;
+}
+.SearchTable td.td-text
+{
+    text-align:right;
+    padding-left:30px;
+    
+}
+.SearchTable td.td-input
+{
+    text-align:left;
+    
+}
+
+
+
+
+
+
+/**************【按钮】样式***************/
+/*按钮样式1*/
+.btnClass_74px
+{
+	border: 0px;
+	cursor: pointer;
+	width: 74px;
+	height: 29px;
+	background: url("../images/btn_bg1.gif");
+	color: #F53D00;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	text-indent:1em;
+}
+.btnClass_74px:hover
+{
+	background-position: 0 -29px;
+}
+/*按钮样式2*/
+.btnClass_100px
+{
+	border: 0px;FormTable
+	cursor: pointer;
+	width: 100px;
+	height: 35px;
+	background: url("../images/btn_bg3.gif");
+	color: #FFF;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+.btnClass_100px:hover
+{
+	background-position: 0 -35px;
+}
+/*按钮样式3*/
+.btnClass_100px_A
+{
+	border: 0px;
+	cursor: pointer;
+	width: 100px;
+	height: 40px;
+	background: url("../images/btn_bg8.gif") -100px 0;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+.btnClass_100px_A:hover
+{
+	background-position: -100px  -40px;
+}
+/*按钮样式3*/
+.btnClass_100px
+{
+	border: 0px;
+	cursor: pointer;
+	width: 100px;
+	height: 35px;
+	background: url("../images/btn_bg3.gif") -100px 0;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+.btnClass_100px:hover
+{
+	background-position: -100px  -35px;
+}
+/*按钮样式4*/
+.btnClass_110px
+{
+	border: 0px;
+	cursor: pointer;
+	width: 110px;
+	height: 37px;
+	background: url("../images/btn_bg4.gif") ;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+.btnClass_110px:hover
+{
+	background-position: 0  -37px;
+}
+/*按钮样式5*/
+.btnClass_78px
+{
+	border: 0px;
+	cursor: pointer;
+	width: 78px;
+	height: 28px;
+	background: url("../images/btn_bg5.gif");
+	color: #FFF;
+	line-height:28px;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+}
+.btnClass_78px:hover
+{
+	background-position: 0 -28px;
+}
+/*按钮样式6*/
+.btnClass_79px
+{
+	border: 0px;
+	cursor: pointer;
+	width: 79px;
+	height: 28px;
+	background: url("../images/btn_bg6.gif");
+	color: #FFF;
+	line-height:28px;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+}
+.btnClass_79px:hover
+{
+	background-position: 0 -28px;
+}
+/*按钮样式7*/
+.btnClass_79px_A
+{
+	border: 0px;
+	cursor: pointer;
+	width: 79px;
+	height: 28px;
+	background: url("../images/btn_bg7.gif");
+	color: #000;
+	line-height:28px;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+}
+.btnClass_79px_A:hover
+{
+	background-position: 0 -28px;
+}
+
+/**************【box】样式***************/
+.box
+{
+    border: 1px solid #CCC;
+    border-top: 0;
+    padding:10px;
+}
+.box-title
+{
+    height: 30px;
+    line-height: 30px;
+    background: url("../images/li.png");
+    text-indent: 1em;
+    color: #F60;
+    font-size: 13px;
+    font-weight: bold;
+ 
+}
+.box-content
+{
+    background: white;
+    border:1px solid #FFF;
+   
+}
+.box1
+{
+    border: 1px solid #D1F4FF;
+    border-top: 0;
+    margin-left:25px;
+    margin-top:8px;
+  
+}
+.box1-title
+{
+    height: 26px;
+    line-height: 26px;
+    background: url("../images/box4_subbg.jpg");
+    text-indent: 1em;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: bold;
+}
+.box1-content
+{
+    background: white;
+    padding:10px;
+   
+}
+.left_title {
+	height: 24px;
+text-indent:1em;
+	line-height: 24px;
+	color: #FFF;
+	background: #008000;
+}
+
+
+
+
+
+
+
+
+
+

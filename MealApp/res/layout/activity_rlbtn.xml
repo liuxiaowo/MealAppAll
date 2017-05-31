@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RLbtnActivity"
+    android:background="@drawable/rl_background">
+
+<RelativeLayout
+    android:id="@+id/RL_top"
+    android:layout_width="match_parent"
+    android:layout_height="55dp">
+
+    <ImageButton 
+        android:id="@+id/RL_back"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/back"
+    	android:layout_centerVertical="true"
+    	android:layout_marginLeft="15dp"
+    	android:contentDescription="@string/back"
+    	android:background="#00000000"/>
+</RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+    	android:layout_height="1dp"
+    	android:layout_below="@id/RL_top"
+    	android:background="#f4f1f1">
+    </View>
+<RelativeLayout 
+    android:id="@+id/RL_middle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/RL_top"
+    android:layout_marginTop="100dp">
+    <ImageButton 
+        android:id="@+id/RL_register"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/register_btn"
+        android:layout_centerHorizontal="true"
+    	android:contentDescription="@string/register"
+    	android:background="#00000000"/>
+    <ImageButton 
+        android:id="@+id/RL_login"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/login_btn"
+    	android:layout_below="@id/RL_register"
+    	android:layout_marginTop="20dp"
+    	android:layout_centerHorizontal="true"
+    	android:contentDescription="@string/login"
+    	android:background="#00000000"/>
+</RelativeLayout>
+</RelativeLayout>

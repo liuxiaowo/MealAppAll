@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray1"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_top_title" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="15dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/username"
+                android:textColor="@color/gray16"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/etLoginID"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:hint="@string/etLoginID" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/oldPw"
+                android:textColor="@color/gray16"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/etPwOld"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:hint="@string/etPasswordOld">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_pw"
+                android:textColor="@color/gray16"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:hint="@string/etPassword"
+                android:inputType="textPassword" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pw_confirm"
+                android:textColor="@color/gray16"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/etPasswordOK"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:hint="@string/etPasswordOK"
+                android:inputType="textPassword" >
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="100dip"
+                android:layout_height="42dip"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:text="@string/ok"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="120dip"
+                android:layout_height="42dip"
+                android:layout_marginLeft="10dip"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:text="@string/notOK"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
